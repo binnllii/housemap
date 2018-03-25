@@ -1,9 +1,8 @@
 <?php
 
-include('connectionData.txt');
+include('includes/connectiondata.php');
 
-$conn = mysqli_connect($server, $user, $pass, $dbname, $port)
-or die('Error connecting to MySQL server.');
+
 
 
   

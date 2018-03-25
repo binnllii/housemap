@@ -2,11 +2,8 @@
 
 
 
-include('connectiondata.txt');
+include('includes/connectiondata.php');
 // include('')
-
-$conn = mysqli_connect($server, $user, $pass, $dbname, $port)
-or die('Error connecting to MySQL server.');
 
 // $conn = mysqli_connect('ix.cs.uoregon.edu','ybl','413290')
 
@@ -54,7 +51,7 @@ mysqli_close($conn);
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta http-equiv="refresh" content="2;url = index.html">
+	<meta http-equiv="refresh" content="2;url = index.php">
 </head>
 </html>
 
